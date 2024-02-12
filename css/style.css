@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(../image/road.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.car{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 380px;
+}
+
+.btn{
+    position: absolute;
+    top: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.btn > button {
+  color: #fff;
+  background-color: #1A1A1A;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  border: 2px solid black;
+  outline: none;
+  padding: 16px 44px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn > button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn > button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
